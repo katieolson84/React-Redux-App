@@ -1,21 +1,39 @@
-.App {
-  text-align: center;
-  font-family: 'Rozha One', serif;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #3AAFA9;
+.App {
+  text-align: center;
+  background-image: url(./design/RonSwanson.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
+}
+
+/* .App-header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* font-size: calc(10px + 2vmin); */
-  color: #FEFFFF;
+  color: #2E211B;
+  height: 20vh;
+
+} */
+
+.quote{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  padding-top: 150px;
 }
 
-.App-header h1{
-  font-size: calc(10px + 6vmin);
-}
+
+
+
+
 
 
