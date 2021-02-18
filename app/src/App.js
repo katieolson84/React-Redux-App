@@ -5,11 +5,6 @@ import Quotes from './components/Quotes';
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
-        <div className="title">
-          
-        </div>
-      </header> */}
         <div className="quote">
             <Quotes />
         </div>
