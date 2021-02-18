@@ -29,6 +29,15 @@
   align-items: center;
   height: 40vh;
   padding-top: 150px;
+  padding-bottom: 40px;
+}
+
+.ron{
+  padding-top: 150px;
+}
+
+.ron:hover{
+  transform: rotate(20deg);
 }
 
 

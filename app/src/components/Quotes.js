@@ -11,7 +11,7 @@ const Container = styled.div`
     }
     button{
         background-color: #2B7A78;
-        margin-top: 1.5%;
+        margin-top: 3%;
         padding: 1%;
         border: none;
         color: #17252A;
@@ -52,7 +52,7 @@ const Quotes = ({ quote, isFetching, error, getQuote }) => {
             </div>
             <hr></hr>
         </div>
-        <button onClick={handleClick}>What did Ron say?</button>
+        <button onClick={handleClick}>What will Ron say next?</button>
     </Container>
   );
 };
